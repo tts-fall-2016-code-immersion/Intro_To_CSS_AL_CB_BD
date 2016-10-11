@@ -79,7 +79,7 @@ input {
   width: 220px;
   height: 36px;
   border-radius: 2px;
-  color: #FFF;
+
 }
 
 input:focus {
@@ -94,12 +94,27 @@ input:focus {
   color: #FFF;
   text-align: center;
 }
-social-signin-Facebook {
-  color: #32508E;
+.social-signin-Facebook {
+  color: #FFF;
+  background-color: #32508E;
 }
-social-signin-Twitter {
-  color: #55ACEE;
+.social-signin-Twitter {
+  color: #FFF;
+  background-color: #55ACEE;
 }
-social-signin-Google {
-  color: #DD4B39;
+.social-signin-Google {
+  color: #FFF;
+  background-color: #DD4B39;
+}
+.or {
+  position: absolute;
+  margin-top: 180px;
+  margin-left: 280px;
+  width: 40px;
+  height: 40px;
+  background-color: #DDD;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.4);
 }
